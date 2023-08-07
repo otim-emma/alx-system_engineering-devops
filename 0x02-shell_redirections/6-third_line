@@ -1,2 +1,2 @@
 #!/bin/bash
-emacs -batch -eval "(with-temp-buffer (insert-file-contents \"iacta\") (meassage(buffer-substring(line-beginning-position 3)(line-end-position 3))))"
+head -n 3 iacta |tail -n 1
